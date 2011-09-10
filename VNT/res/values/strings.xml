@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Vnt!</string>
+	<string name="app_name">VNT</string>
+	<string name="vntTitle">车载娱乐信息系统</string>
+	<string name="vntAlarm">报  警</string>
+	<string name="vntNavigation">导  航</string>
+	<string name="vntPhone">语音服务</string>
+	<string name="vntEntertainment">娱乐休闲</string>
+	<string name="vntEmergencyInfo">紧急信息</string>
+	<string name="vntEasyInfo">便捷信息</string>
+	<string name="vntInternet">联  网</string>
+	<string name="vntEmail">E-mail</string>
+	<string name="vntMaintenance">保  养</string>
+	<string name="vntSettings">购买付费</string>
+	<string name="vntReturn">返    回</string>
+	<string name="vntCurrentOperate">currentOperate</string>
+	<string name="eula_title">License</string>
+	<string name="eula_accept">Accept</string>
+	<string name="eula_refuse">Refuse</string>
+	
+	<string name="remote_call_failed">Failure calling remote service</string>
+	<string name="partnerHint">"partner"</string>
+	<string name="sellerHint">"seller"</string>
+	<string name="out_trade_noHint">"out_trade_no"</string>
+	<string name="subjectHint">"subject"</string>
+	<string name="bodyHint">"body"</string>
+	<string name="total_feeHint">"total_fee"</string>
+	<string name="notify_urlHint">"notify_url"</string>
+	<string name="charsetHint">"charset"</string>
+	<string name="signTypeHint">"signType"</string>
+	<string name="confirm_install_hint">"安装提示"</string>	
+	<string name="confirm_install">"为保证您的交易安全，需要您安装支付宝安全支付服务，才能进行付款。\n\n点击确定，立即安装。"</string>
+	<string name="Ensure">"确定"</string>
+	<string name="Cancel">"取消"</string>
+	<string name="check_sign_failed">您的订单信息已被非法篡改。</string> 
+</resources>

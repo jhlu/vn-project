@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_height="fill_parent" 
+    android:layout_width="fill_parent" android:background="@color/mainBgColor">
+	<LinearLayout 
+		android:id="@+id/LinearLayout06" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="10px"
+		android:layout_marginBottom="10px" 
+		android:baselineAligned="true" 
+		android:gravity="center" 
+		android:layout_gravity="center">
+		<Button 
+			android:id="@+id/vntTitleTextView" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_weight="1" 
+			android:background="@drawable/title">
+		</Button>
+	</LinearLayout>
+	<LinearLayout 
+		android:id="@+id/LinearLayout01" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:baselineAligned="true" 
+		android:gravity="center" 
+		android:layout_gravity="center"
+		android:layout_margin="10px">
+		<Button 
+			android:id="@+id/vntAlarmButton" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_weight="1" 
+			android:background="@drawable/baojing" android:layout_marginLeft="10px" android:layout_marginRight="10px">
+		</Button>
+		<Button 
+			android:id="@+id/vntNavigationButton" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_weight="1" 
+			android:background="@drawable/daohang" android:layout_marginLeft="10px" android:layout_marginRight="10px">
+		</Button>
+	</LinearLayout>
+	<LinearLayout 
+		android:id="@+id/LinearLayout02"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:gravity="center" 
+		android:layout_gravity="center"
+		android:layout_margin="10px">
+		<Button 
+			android:id="@+id/vntPhoneButton" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_weight="1" 
+			android:background="@drawable/yuyinfuwu" android:layout_marginLeft="10px" android:layout_marginRight="10px">
+		</Button>
+		<Button 
+			android:id="@+id/vntEntertainmentButton" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_weight="1" 
+			android:background="@drawable/yulexiuxian" android:layout_marginLeft="10px" android:layout_marginRight="10px">
+		</Button>
+	</LinearLayout>
+	<LinearLayout 
+		android:id="@+id/LinearLayout03" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:gravity="center" 
+		android:layout_gravity="center"
+		android:layout_margin="10px">
+		<Button 
+			android:id="@+id/nvtEmergencyInfoButton" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_weight="1" 
+			android:background="@drawable/jinjixinxi" android:layout_marginLeft="10px" android:layout_marginRight="10px">
+		</Button>
+		<Button 
+			android:id="@+id/vntEasyInfoButton" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_weight="1" 
+			android:background="@drawable/bianjiexinxi" android:layout_marginLeft="10px" android:layout_marginRight="10px">
+		</Button>
+	</LinearLayout>
+	<LinearLayout 
+		android:id="@+id/LinearLayout04" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:gravity="center" 
+		android:layout_gravity="center"
+		android:layout_margin="10px">
+		<Button 
+			android:id="@+id/nvtInternetButton" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_weight="1" 
+			android:background="@drawable/lianwang" android:layout_marginLeft="10px" android:layout_marginRight="10px">
+		</Button>
+		<Button  
+			android:id="@+id/vntEmailButton" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_weight="1" 
+			android:background="@drawable/email" android:layout_marginLeft="10px" android:layout_marginRight="10px">
+		</Button>
+	</LinearLayout>
+	<LinearLayout 
+		android:id="@+id/LinearLayout05" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:gravity="center" 
+		android:layout_gravity="center"
+		android:layout_margin="10px">
+		<Button 
+			android:id="@+id/vntMaintenanceButton" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_weight="1" 
+			android:background="@drawable/baoyang" android:layout_marginLeft="10px" android:layout_marginRight="10px">
+		</Button>
+		<Button  
+			android:id="@+id/vntSettingsButton" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_weight="1" 
+			android:background="@drawable/goumaifuwu" android:layout_marginLeft="10px" android:layout_marginRight="10px">
+		</Button>
+	</LinearLayout>
+</LinearLayout>

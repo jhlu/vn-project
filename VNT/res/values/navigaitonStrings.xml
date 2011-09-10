@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="navigationTitle">车载娱乐信息系统--导航</string>
+<string name="navigationWeatherInputString">北京</string>
+<string name="navigationWeatherSubmitString">提交</string>
+<string name="navigationMapInString">放大</string>
+<string name="navigationMapOutString">缩小</string>
+<string name="navigationMapSwitchOnString">卫星图开</string>
+<string name="navigationMapSwitchOffString">卫星图关</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical" android:layout_gravity="center">
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="50px">
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center">
+<AbsoluteLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  <!-- 建立一個TextView -->
+  <TextView  
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content" 
+  android:text="@string/hello"
+  android:gravity="center" android:id="@+id/entertainmentMusicTitleTextView"/>
+  <!-- 建立第一個ImageButton -->
+  <ImageButton
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_x="51px"
+  android:layout_y="206px"
+  android:background="@color/entertainmentColorBlack"  
+  android:src="@drawable/entertainmentstart"  
+  android:id="@+id/entertainmentMusicStartImageButton"/>
+  <!-- 建立第二個ImageButton -->
+  <ImageButton
+  android:id="@+id/entertainmentMusicPauseImageButton" 
+  android:layout_height="wrap_content"  
+  android:layout_width="wrap_content"
+  android:background="@color/entertainmentColorBlack" 
+  android:layout_x="91px"
+  android:layout_y="206px"  
+  android:src="@drawable/entertainmentpause" 
+  />  
+  <!-- 建立第三個ImageButton -->
+  <ImageButton
+  android:id="@+id/entertainmentMusicBeforImageButton" 
+  android:layout_height="wrap_content"  
+  android:layout_width="wrap_content"
+  android:background="@color/entertainmentColorBlack" 
+  android:layout_x="11px"
+  android:layout_y="206px"  
+  android:src="@drawable/entertainmentbefore" 
+  />
+  <!-- 建立第四個ImageButton -->
+  <ImageButton
+  android:id="@+id/entertainmentMusicNextImageButton" 
+  android:layout_height="wrap_content"  
+  android:layout_width="wrap_content"
+  android:background="@color/entertainmentColorBlack" 
+  android:layout_x="131px"
+  android:layout_y="206px"  
+  android:src="@drawable/entertainmentnext" 
+  />  
+  <!-- 建立第五個ImageButton -->
+  <ImageButton
+  android:id="@+id/entertainmentMusicStopImageButton"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_x="176px"
+  android:layout_y="206px"
+  android:background="@color/entertainmentColorBlack"  
+  android:src="@drawable/entertainmentstop"  
+  />
+
+</AbsoluteLayout>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout03" android:layout_width="wrap_content" android:layout_height="wrap_content"></LinearLayout>
+</LinearLayout>

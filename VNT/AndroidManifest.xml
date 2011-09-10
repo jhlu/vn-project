@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.android.vnt"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".Vnt" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" /> 
+            </intent-filter>
+        </activity>
+		<activity android:name="Alarm"></activity>
+		<activity android:name="Phone">
+            <intent-filter>
+              		 <action android:name="android.intent.action.CALL_BUTTON"/>
+            </intent-filter>
+		</activity>
+		<activity android:name="Entertainment"></activity>
+		<activity android:name="EmergencyInfo"></activity>
+		<activity android:name="EasyInfo"></activity>
+		<activity android:name="Internet"></activity>
+		<activity android:name="Email"></activity>
+		<activity android:name="Maintenance"></activity>
+		<activity android:name="Settings"></activity>
+		<activity android:name="Navigation"></activity>
+	<uses-library android:name="com.google.android.maps"/>
+
+<activity android:name="EntertainmentMusic"></activity>
+<activity android:name="EntertainmentPlaygame">
+ 			<intent-filter>
+              		 <action android:name="android.intent.action.MEDIA_SEARCH"/>
+            </intent-filter>
+</activity>
+<activity android:name="EntertainmentVideo"></activity>
+<activity android:name="EntertainmentPicture">
+	            <intent-filter>
+              		 <action android:name="android.intent.action.GET_CONTENT"/>
+           	    </intent-filter>
+</activity>
+<activity android:name="InfomationDetail"></activity>
+<activity android:name="com.alipay.app.SampleActivity" ></activity>
+</application>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+	<uses-permission android:name="android.permission.CALL_PHONE" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+<uses-sdk android:minSdkVersion="8"></uses-sdk>
+
+</manifest> 

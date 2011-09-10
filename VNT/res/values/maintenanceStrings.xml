@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="maintenanceTitle">车载娱乐信息系统--保养</string>
+<string name="maintenanceSend">发 送</string>
+<string name="maintenanceSend_nosd_string">※保养信息发送完毕※</string>
+</resources>

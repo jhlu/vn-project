@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="alarmTitle">车载娱乐信息系统--报警</string>
+<string name="alarmSend">发 送</string>
+<string name="alarmSend_nosd_string">※报警信息发送完毕※</string>
+</resources>

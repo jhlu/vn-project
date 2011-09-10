@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="phoneTitle">车载娱乐信息系统--语音服务</string>
+<string name="phoneGeneralTexviewString">输入号码：</string>
+
+<string name="phoneGenralButtonString">拨  打  电  话</string>
+<string name="phoneOperatorButtonString">话  务  员  服  务</string>
+<string name="phoneVolumeUpButtonString">音量增加</string>
+<string name="phoneVolumeDownButtonSring">音量减少</string>
+<string name="phone_Notify_incorrect_phonenumber_string">您输入的号码不正确，请重新输入</string>
+<string name="phoneOperatorNumberString">13800138000</string>
+<string name="phone_Notify_operator_string">正在连接话务员，请稍等...</string>
+</resources>

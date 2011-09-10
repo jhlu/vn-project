@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical" android:layout_gravity="center">
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="50px">
+</LinearLayout>
+
+<LinearLayout android:id="@+id/LinearLayout03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center">
+	<ImageButton 
+	android:id="@+id/entertainmentMusicArtistImageButton" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:background="@color/entertainmentColorBlack"
+	android:src="@drawable/entertainmentmusicartist"    
+	></ImageButton>
+	<ImageButton 
+	android:id="@+id/entertainmentMusicAlbumImageButton" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:background="@color/entertainmentColorBlack"
+	android:src="@drawable/entertainmentmusicalbum"  
+	></ImageButton>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center">
+	<ImageButton 
+	android:id="@+id/entertainmentMusicSongImageButton" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:background="@color/entertainmentColorBlack"
+	android:src="@drawable/entertainmentmusicsong"  
+	></ImageButton>
+	<ImageButton 
+	android:id="@+id/entertainmentMusicPlaylisImageButton" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:background="@color/entertainmentColorBlack"
+	android:src="@drawable/entertainmentmusicplaylist"  
+	></ImageButton>
+	
+</LinearLayout>
+</LinearLayout>

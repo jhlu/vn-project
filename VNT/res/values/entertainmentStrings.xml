@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="entertainmentTitle">车载娱乐信息系统--娱乐休闲</string>
+<string name="entertainmentTab1String">音乐播放</string>
+<string name="entertainmentTab2String">视频播放</string>
+<string name="entertainmentTab4String">游戏娱乐</string>
+<string name="entertainmentErr_nosd_string">※未发现安装SD记忆卡※</string>
+<string name="entertainmentPlayCompletionString">※视频已播放完毕※</string>
+<color name="entertainmentColorBlack">#000000</color>
+<string name="entertainmentPlayMusicCompletionString">※音频已播放完毕※</string>
+<string name="entertainmentTab3String">图片浏览</string>
+<string name="entertainmentPictureFindString">查看图片</string>
+</resources>
